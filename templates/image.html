@@ -1,0 +1,8 @@
+<!doctype html>
+<title>Image</title>
+{% if url %}
+<p>当前测试的为第{{ num }}张图片，图片内容如下：</p>
+<p><span><img src= {{ url }}></span></p>
+<p> 预测结果为</p>
+<p><span>{{ result }}</span></p>
+{% endif %}
